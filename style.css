@@ -28,6 +28,9 @@ input, select, textarea, button{
     color: #59429d;
     border-radius: 5px;
 }
+.grupo{
+    display: flex;
+}
 .grupo:before, .grupo:after{
     display: table;
 }
@@ -46,7 +49,7 @@ fieldset .grupo .campo{
     float: left;
     margin-right: 1em;
 }
-.campo input[type="text"], .campo input[type="email"] .campo select, .campo textarea{
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
     padding: 0.2em;
     border: 1px solid #59429d;
     box-shadow:2px 2px 2px rgba(0, 0, 0,0.2) ;
@@ -68,7 +71,7 @@ fieldset .grupo .campo{
     box-shadow: 2px 2px 2px rgba(0, 0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top: 105%;
+    top: 100%;
     left: 50%;
     margin-right: -50%;
     transform:translate(-50%, -50%) ;
@@ -80,4 +83,7 @@ fieldset .grupo .campo{
 }
 #checkbox{
     display: inline-block;
+}
+#sobrenome{
+    margin-left: 3px;
 }
